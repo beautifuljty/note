@@ -16,7 +16,9 @@
 
 *倾斜*
 
-！[alt属性](图片路径)
+img标签
+
+![](./boom.jpg)
 
 注：中括号内是a标签的alt属性，小括号中是图片的路径
 
@@ -24,7 +26,9 @@
 console.log('aaa')
 ```
 
-- first commit(无序列表)
+
+- [x]first commit(无序列表)
+- [ ]first commit
 
 
 1. first commit(有序列表)
@@ -34,3 +38,25 @@ console.log('aaa')
 ***
 
 三个---或者三个***就是分割线
+
+表格：
+
+| Header One     | Header Two     | beautiful|
+| :------------- | :------------- | :---     |
+| Item One       | Item Two       | brautiful|
+
+ctrl+shift+p调出命令面板，输入sni下有个Snippets:Available,在里面查看快捷键
+
+markdown中支持html格式，可以直接输入html
+
+例：
+
+<h1 style='color:red';>beautiful</h1>
+
+pre标签和code代码块
+
+<pre>
+console.log('beautiful')
+  console.log('beautiful')
+    console.log('beautiful')
+</pre>
